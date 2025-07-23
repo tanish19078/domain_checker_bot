@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Replace with your bot token
-BOT_TOKEN = "7901035527:AAEtIRngTHhE2pgtQSw1LDBqIYd37ti3DIg"
+BOT_TOKEN = "your_bot_token"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("👋 Send me a domain like `example.com` to check if it's legit.")
