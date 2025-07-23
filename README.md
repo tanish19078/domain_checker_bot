@@ -52,11 +52,13 @@ Copy and save this — it goes into your `.env`.
 ```bash
 git clone https://github.com/tanish19078/domain_checker_bot.git
 cd domain_checker_bot
+```
 
 ### 2. Create a .env file in the root folder:
 
 ```bash
 BOT_TOKEN=your-telegram-bot-token-here
 VT_API_KEY=your-virustotal-api-key-here
+```
 
 
