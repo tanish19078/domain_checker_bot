@@ -2,6 +2,8 @@
 
 A Telegram bot to check whether a domain is legitimate or suspicious.
 
+test it out - t.me/realweborfake_bot
+
 ## Features
 - WHOIS lookup (domain age, registrar)
 - Flags newly created domains
