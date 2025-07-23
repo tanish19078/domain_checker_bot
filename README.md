@@ -54,11 +54,20 @@ git clone https://github.com/tanish19078/domain_checker_bot.git
 cd domain_checker_bot
 ```
 
-### 2. Create a .env file in the root folder:
+### 2. Create a .env file in the root folder (⚠️ Do not share publicly):
 
 ```bash
 BOT_TOKEN=your-telegram-bot-token-here
 VT_API_KEY=your-virustotal-api-key-here
 ```
+### 3. Install dependencies
 
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the bot
+
+```bash
+python domain_checker_bot.py
+```
 
