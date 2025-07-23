@@ -2,7 +2,9 @@
 
 Check if a domain is real, recently registered, or flagged as malicious — directly from Telegram.
 
-🔗 **Try it here:** [@realweborfake_bot](https://t.me/realweborfake_bot)
+🔗 **Try it here:** [@realweborfake_bot](https://t.me/realweborfake_bot) 
+
+Currently under developments so might not work but would upload some img regarding the output :)
 
 ---
 
