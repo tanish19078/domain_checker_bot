@@ -30,5 +30,33 @@ Check if a domain is real, recently registered, or flagged as malicious — dire
 1. Open [@BotFather](https://t.me/BotFather) in Telegram
 2. Send `/start` and then `/newbot`
 3. Choose a name and username (e.g., `realweborfake_bot`)
-4. BotFather will give you a token like:
+4. BotFather will give you a token like:123456789:ABCDefGhIJKlmNoPQRstuVWXyz123456789
+
+   
+Copy and save this — it goes into your `.env`.
+
+---
+
+### 2. VirusTotal API Key
+
+1. Go to [https://www.virustotal.com/gui/join-us](https://www.virustotal.com/gui/join-us) and sign up
+2. After logging in, visit [https://www.virustotal.com/gui/user/YOUR_USERNAME/apikey](https://www.virustotal.com/gui/user/YOUR_USERNAME/apikey)
+3. Copy your API key — it goes in your `.env`
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tanish19078/domain_checker_bot.git
+cd domain_checker_bot
+
+### 2. Create a .env file in the root folder:
+
+```bash
+BOT_TOKEN=your-telegram-bot-token-here
+VT_API_KEY=your-virustotal-api-key-here
+
 
